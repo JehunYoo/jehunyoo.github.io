@@ -103,7 +103,7 @@ Neighbor 모델은 앞에서 설명한 방법으로 다음과 같은 예측을 �
 여기서 Song이나 Tag가 비어있으면 비어있는 playlist에 대한 예측 결과는 모두 같을 것이다.<br>
 따라서 Song이나 Tag가 비어있지 않아야 예측의 의미가 있다.
 
-[Overview](/projects/melon-playlist-continuation/overview)에서 구분한 각 case에 대한 ouput은 다음과 같다.
+[Overview](/posts/melon-playlist-continuation-overview)에서 구분한 각 case에 대한 ouput은 다음과 같다.
 
 case | input | output
 :---:|---|---
@@ -113,7 +113,7 @@ case 3 | tags only | tags only
 case 4 | no songs & no tags | none
 
 song이 있는 경우에는 song을 예측하고 tag가 있는 경우에는 tag를 예측한다.<br>
-예측하지 못한 경우에 대해서는 [KNN](/projects/melon-playlist-continuation/knn)을 사용한다.
+예측하지 못한 경우에 대해서는 [KNN](/posts/melon-playlist-continuation-knn)을 사용한다.
 
 ### Optimization
 

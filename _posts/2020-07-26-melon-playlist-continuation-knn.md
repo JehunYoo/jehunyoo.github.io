@@ -88,7 +88,7 @@ target playlist $u$에 대해 모든 playlist $v \in \mathcal{P}$와 similarity 
 ### Input & Output
 
 논문에서는 Song &#8594; Song (Tag &#8594; Tag)의 방법이지만 이와 같은 input & output은 성능이 더 좋았던 Neighbor 모델을 사용했다.<br>
-[Neighbor](/projects/melon-playlist-continuation/neighbor)에서 설명했듯이 Neighbor 모델은 한계가 있어서 이 점을 보완하기 위해 KNN 모델에서는 다음과 같은 예측 방식을 따른다.
+[Neighbor](/posts/melon-playlist-continuation-neighbor)에서 설명했듯이 Neighbor 모델은 한계가 있어서 이 점을 보완하기 위해 KNN 모델에서는 다음과 같은 예측 방식을 따른다.
 
 - Song &#8594; Tag
 - Tag &nbsp;  &#8594; Song

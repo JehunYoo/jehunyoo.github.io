@@ -10,6 +10,8 @@ img_path: /assets/img/melon-playlist-continuation
 
 ![](melon.png){: width="150" height="150" }
 
+[**Project Repository**](https://github.com/JehunYoo/Melon-Playlist-Continuation)
+
 ## Goal
 주어진 playlist에 대해 **songs 100개**, **tags 10개**를 **순서에 맞게** 예측해야 한다.
 
@@ -42,7 +44,7 @@ O|X|O|11|11
 O|O|X|0|0
 O|O|O|0|0
 
-[Reference](/projects/melon-playlist-continuation/#references)에서 사용한 모델에 적용하기 위해 다음과 같이 case를 나눴다.
+[Reference](https://github.com/JehunYoo/Melon-Playlist-Continuation#references)에서 사용한 모델에 적용하기 위해 다음과 같이 case를 나눴다.
 
 case:
 
