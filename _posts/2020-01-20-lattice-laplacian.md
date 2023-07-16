@@ -5,6 +5,7 @@ tags: [mathematics, python]
 categories: [Mathematics, Computational Mathematics]
 toc: true
 math: true
+img_path: /assets/img/lattice-laplacian
 ---
 
 # 1. Problem
@@ -166,7 +167,7 @@ to_matrix and to_maths are used to transform two different scales.
 <br>
 
 ## 3.3 Coordinates Initialisation
-![](/assets/img/grid.png)
+![](grid.png)
 
 Boundary Condition 1, 2, 3에 의하여 $x \times y = 0$ or $x = 2$일 때 $u = 0$이다.
 
@@ -289,7 +290,7 @@ plt.title("Iteration = 10000")
 plt.legend(loc=2)
 plt.show()
 ```
-![](/assets/img/iter10e4.png)
+![](iter10e4.png)
 
 파란색 그래프가 주황색 그래프에 잘 근사되었음을 알 수 있다.
 
@@ -298,7 +299,7 @@ plt.show()
 ## 3.6 Graph by Iteration
 Iteration = 10, 100, 1000, 10000 일 때의 각각의 그래프이다. Iteration 횟수가 증가함에 따라 analytical solution에 점점 다가가는 것을 볼 수 있다.
 <br>
-![](/assets/img/iter10e1.png)
-![](/assets/img/iter10e2.png)
-![](/assets/img/iter10e3.png)
-![](/assets/img/iter10e4.png)
+![](iter10e1.png)
+![](iter10e2.png)
+![](iter10e3.png)
+![](iter10e4.png)
