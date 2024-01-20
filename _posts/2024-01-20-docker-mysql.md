@@ -1,6 +1,6 @@
 ---
 title: "Docker 첫 사용기 - MySQL 사용하기"
-date: 2024-01-20 18:00:00 +0900
+date: 2024-01-20 19:00:00 +0900
 tags: ["docker", "mysql"]
 categories: [Docker]
 toc: true
@@ -19,7 +19,7 @@ Docker를 사용하면 심지어 두 데이터베이스를 필요에 따라 동�
 
 # Docker에 대해서 간단하게
 
-Docker image와 container에 대해서 간단하게 설명해보겠다. \
+Docker image와 container에 대해서 간단하게 설명해보겠다. \
 image는 어떤 애플리케이션을 위한 환경을 모두 담아둔 것이다. \
 container는 이 image를 바탕으로 호스트에서 동작하는 프로세스다.
 
@@ -67,7 +67,7 @@ Docker가 설치되어 있다고 가정한다. \
 Error response from daemon: Container is not running
 ```
 
-난 분명히 방금 `docker run`으로 컨테이너를 실행했는데 무슨 소린가 싶어서 `docker ps -a`로 현재 컨테이너의 상태를 확인했다.
+난 분명히 방금 `docker run`으로 컨테이너를 실행했는데 무슨 소린가 싶어서 `docker ps -a`로 현재 컨테이너의 상태를 확인했다.
 
 ```
 STATUS
