@@ -29,7 +29,7 @@ container는 이 image를 바탕으로 호스트에서 동작하는 프로세스
 
 # Docker로 MySQL 사용하기
 
-Docker가 설치되어 있다고 가정한다. \
+Docker가 설치되어 있다고 가정한다.
 
 1. `$ docker pull mysql:<tag>`
 	- MySQL Docker 이미지를 다운로드 한다. 이때 원하는 tag를 지정할 수 있다. 지정하지 않으면 latest이다.
@@ -44,7 +44,7 @@ Docker가 설치되어 있다고 가정한다. \
 4. `$ docker ps -a`
 	- `ps` 명령어로 컨테이너 목록을 조회할 수 있다.
 	- `-a` 옵션으로 백그라운드 컨테이너도 함께 조회할 수 있다.
-5. `$ docker exec -it <container-id> bash
+5. `$ docker exec -it <container-id> bash`
 	- `-i` 옵션으로 stdin을 활성화하고 컨테이너가 attach되어있지 않아도 stdin을 유지할 수 있다. bash에 명령을 입력하기 위해 사용한다.
 	- `-t` 옵션으로 TTY 모드를 사용할 수 있다. 이 옵션을 사용하지 않으면 명령을 입력할 수는 있어도 shell이 표시되지 않는다.
 	- 위의 두 옵션을 하나로 합쳐서 `-it`로 많이 사용한다.
