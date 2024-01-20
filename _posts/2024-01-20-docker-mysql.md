@@ -5,7 +5,6 @@ tags: ["docker", "mysql"]
 categories: [Docker]
 toc: true
 math: false
-pin: false
 img_path: /assets/img/
 ---
 
