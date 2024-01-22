@@ -121,12 +121,12 @@ for (Alpha alpha : alphas) {
 
 우선 `Beta`까지는 fetch join으로 한 번에 가져왔으므로 `Alpha`와 `Beta`는 Persistence Context에 존재한다. \
 
-## `default_batch_fetch_size` 설정이 없다면?
+## 만약 `default_batch_fetch_size` 설정이 없다면?
 
 이후에 반복문을 돌면서 매번 `gamma.getName()`, `delta.getName()`을 만날 때 lazy loading이 발생했을 것이다. \
 이렇게 되면 쿼리를 계속 DB로 전송해야 하므로 네트워크 사용으로 인한 지연이 발생한다.
 
-## `default_batch_fetch_size`을 설정해주면 어떻게 될까?
+## 그렇다면 `default_batch_fetch_size`을 설정해주면 어떻게 될까?
 
 ```
 alpha11 beta1 gamma11 delta1
